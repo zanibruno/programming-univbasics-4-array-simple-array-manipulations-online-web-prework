@@ -43,7 +43,7 @@ def using_delete_at(famous_robots, deleted_robots)
 end
 
 def using_insert(list_of_programming_languages, another_language)
- new_array = another_language.insert(list_of_programming_languages, 4)
+ new_array = list_of_programming_languages(4, another_language)
 end 
   
   
